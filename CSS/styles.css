@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+.toolbar {
+  background-image: url("../image/toolbar-background.png");
+  background-size: cover;
+  color: #fff;
+  padding: 10px;
+}
+
+.main-logo {
+  padding-left: 10px;
+  font-size: 25px;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.flexbox {
+  display: flexbox;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toolbar-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.toolbar-menu li {
+  margin: 0 10px;
+}
+
+.toolbar-menu a {
+  text-decoration: none;
+}
