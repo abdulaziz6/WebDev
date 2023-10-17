@@ -95,6 +95,17 @@ button {
   border-radius: 20px;
 }
 
+.idea-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.idea-box hr {
+  color: #000;
+  border-style: solid;
+  width: 30%;
+}
 /* Contact page styling*/
 
 input[type="text"],
