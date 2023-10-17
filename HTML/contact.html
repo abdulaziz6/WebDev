@@ -20,62 +20,87 @@
       </ul>
     </div>
     <!-- Code -->
-    <div>
-      <h1>Heading1</h1>
-      <p>paragraph</p>
-    </div>
-    <ul>
-      <li>abdulaziz</li>
-      <ul>
-        <li>
-          <span>Mail:</span>
-          <a href="mailto:Abdulaziz@hotmail.com">Abdulaziz@hotmail.com</a>
-        </li>
-        <li>
-          <span>Twitter</span>
-          <a href="https://twitter.com/Mr_AbdulAziz_0"></a>A_Alghamdi
-        </li>
-      </ul>
-      <li>bander</li>
-    </ul>
-    <span>abdulaziz<a href="mailto:homer@example.org"> mail</a></span>
+    <header><h1>Contact us</h1></header>
+      
     <hr />
 
-    <fieldset>
-      <legend>Contact us</legend>
-      <form action="" method="post">
-        <label>first name</label>
-        <input type="text" id="firstname" name="firstname" />
-        <label
-          >last name<input type="text" id="lastname" name="lastname"
-        /></label>
-        <label
-          >Country<input type="text" id="lastname" name="lastname"
-        /></label>
+    <div class="container">
+      
+      <form action="">
 
-        <label for="">
-          <textarea name="cv" id="cv" cols="30" rows="10">
-please enter your cv</textarea
-          >
-        </label>
-        <div>انا اقر اني اسطوري</div>
-        <input type="checkbox" name="agree" id="agree" value="agree" /> اتفق
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" placeholder="your name.. "/>
+
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname" placeholder="your last name.. "/>
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="your email.. "/>
+
+        
+      
+        
+
+        <label for="subject">Subject</label>
+        <textarea name="subject" id="subject" placeholder="write your subject here.. " style = "height:150px"> </textarea>
       </form>
-    </fieldset>
-    <input
-      type="hidden"
-      name="hidden"
-      value="this is a hidden value"
-      id="hidden"
-    />
-    <input type="submit" value="submit application" />
-    <input type="reset" value="reset" />
-    <button type="reset">
-      <img
-        src="C:\Users\Abdulaziz\Desktop\DSC_0677[1].jpg"
-        alt="reset"
-        style="width: 20px"
-      />
-    </button>
+    
+    
+    <input type="submit" value="Submit " />
+    <input type="reset" value="Reset" />
+  </div>
   </body>
+  <style>/* Style inputs with type="text", select elements and textareas */
+    input[type=text],textarea {
+      width: 100%; /* Full width */
+      padding: 12px; /* Some padding */ 
+      border: 1px solid #ccc; /* Gray border */
+      border-radius: 4px; /* Rounded borders */
+      box-sizing: border-box; /* Make sure that padding and width stays in place */
+      margin-top: 6px; /* Add a top margin */
+      margin-bottom: 16px; /* Bottom margin */
+      resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+      
+    }
+    /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type=reset] {
+      background-color: #bb2f16;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    /* When moving the mouse over the submit button, add a darker green color */
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    input[type=reset]:hover {
+      background-color: #b32020;
+    }
+    /* Add a background color and some padding around the form */
+    .container {
+      border-radius: 5px;
+      background-color: #333;
+      padding: 20px;
+    }
+    label{
+      color: #ccc;
+    }
+    header {
+      background-color: #333;
+      color: #ccc;
+      padding: 2px;
+      border-radius: 8px;
+    }
+    </style>
+  
 </html>
