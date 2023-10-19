@@ -1,2 +1,2 @@
 WEBSITE LINK
-https://nebulavii.github.io/assignment1/HTML/our-project.html
+https://nebulavii.github.io/assignment1/HTML/index.html
