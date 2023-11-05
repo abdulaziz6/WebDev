@@ -1,0 +1,29 @@
+/* Apply styles for printing only */
+@media print {
+  /* Hide all elements outside of the print container */
+  head,
+  .toolbar,
+  .card-container a {
+    display: none !important;
+  }
+
+  /* Show the print container and its contents */
+  .print-container {
+    display: block !important;
+  }
+
+  /* Display captions and borders for the table */
+  table .trip-table caption {
+    display: block;
+  }
+
+  table .trip-table {
+    border-collapse: separate;
+    border-spacing: 2px;
+  }
+
+  table .trip-table th,
+  table .trip-table td {
+    border: 1px solid #000;
+  }
+}

@@ -291,3 +291,7 @@ p {
 .feedback-form button:hover {
   background-color: #45a049;
 }
+
+.print-container {
+  margin-bottom: 500px;
+}
