@@ -110,14 +110,14 @@ button {
 
 input[type="text"],
 textarea {
-  width: 100%; 
+  width: 100%;
   padding: 12px;
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
   color: #912525;
 }
 /* Style the button with a specific background color etc */
@@ -232,20 +232,21 @@ p {
   justify-content: center;
 }
 .trip-table {
-  background-color: #04364A;
-  color: #DAFFFB;
+  background-color: #04364a;
+  color: #dafffb;
   width: 80%;
   border-collapse: collapse;
 }
 
-.trip-table th, .trip-table td {
+.trip-table th,
+.trip-table td {
   padding: 18px;
   text-align: center;
-  border: 0.5px solid #176B87;
+  border: 0.5px solid #176b87;
 }
 
 .trip-table th {
-  background-color: #64CCC5;
+  background-color: #64ccc5;
   font-weight: bold;
 }
 
@@ -253,9 +254,10 @@ p {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #FCF5ED;
-  color: #1F1717;
+  background-color: #fcf5ed;
+  color: #1f1717;
   border-radius: 10px;
+  margin-bottom: 50px;
 }
 
 .feedback-form fieldset {
@@ -268,6 +270,7 @@ p {
   margin-bottom: 5px;
   font-weight: bold;
 }
+
 .feedback-form select {
   width: 100%;
   padding: 10px;
@@ -276,8 +279,9 @@ p {
   box-sizing: border-box;
   margin-bottom: 10px;
 }
+
 .feedback-form button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -287,5 +291,3 @@ p {
 .feedback-form button:hover {
   background-color: #45a049;
 }
-
-
