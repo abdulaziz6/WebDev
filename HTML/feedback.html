@@ -1,0 +1,99 @@
+<!-- Name: Bandar Habib | ID: 2036359 | Section: CS1 | Date: 18/10/2023 -->
+<!-- Name: Abdulaziz Alghamdi | ID: 2035244 | Section: CS1 | Date: 18/10/2023 -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="..\CSS\styles.css" />
+    <title>feedback</title>
+  </head>
+  <body>
+    <!-- Toolbar -->
+    <div class="toolbar" role="banner">
+      <a class="non-block" title="Home" href="index.html">
+        <img
+          src="..\image\main-logo.png"
+          alt="logo"
+          width="60px"
+          height="60px"
+        />
+        <!--linking every name with every page-->
+      </a>
+      <ul class="toolbar-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="create-plan.html">Create Plan</a></li>
+        <li><a href="our-project.html">About our Project</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="Saudia-Arabia-landscabe.html">Video</a></li>
+        <li><a href="feedback.html">feedback</a></li>
+      </ul>
+    </div>
+    <!-- Code -->
+    <!--feedback form -->
+    <header><h1>Rate our services</h1></header>
+    <hr />
+      
+<form class="feedback-form">
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label for="firstname">First Name</label>
+      <input
+        type="text"
+        id="firstname"
+        name="firstname"
+        placeholder="your name.. "
+        required
+      />
+      <label for="lastname">Last Name</label>
+      <input
+        type="text"
+        id="lastname"
+        name="lastname"
+        placeholder="your last name.. "
+        required
+      />
+      <label for="email">Email</label>
+      <input
+        type="text"
+        id="email"
+        name="email"
+        placeholder="your email.. "
+        required
+      />
+    </fieldset>
+  
+    <fieldset>
+      <legend>Rate our services</legend>
+      
+  
+      <label for="experience">Overall Experience:</label>
+      <select id="experience" name="experience">
+        <option value="excellent">Excellent</option>
+        <option value="good">Good</option>
+        <option value="average">Average</option>
+        <option value="poor">Poor</option>
+      </select>
+
+      <label for="Q1">Do you want us to add more plans:</label>
+      <input type="radio" id="Q1" name="Q1" value="yes">
+      <label for="Q1">yes</label>
+      <input type="radio" id="Q1" name="Q1" value="no">
+      <label for="Q1">no</label>
+  
+      <label for="feedback">Additional Feedback:</label>
+      <textarea id="feedback" name="feedback" rows="6"></textarea>
+  
+      <label for="news">Subscribe to notification email:</label>
+      <input type="checkbox" id="news" name="news" value="yes">
+  
+      
+    </fieldset>
+  
+    <button type="submit">Submit</button>
+    
+    <!-- Footer -->
+</form>
+    <footer>
+      <p>&copy; 2023 TP. Travel Planner.</p>
+    </footer>
+  </body>
+</html>

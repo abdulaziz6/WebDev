@@ -227,3 +227,65 @@ p {
   padding: 5px;
   text-align: center;
 }
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+.trip-table {
+  background-color: #04364A;
+  color: #DAFFFB;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.trip-table th, .trip-table td {
+  padding: 18px;
+  text-align: center;
+  border: 0.5px solid #176B87;
+}
+
+.trip-table th {
+  background-color: #64CCC5;
+  font-weight: bold;
+}
+
+.feedback-form {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FCF5ED;
+  color: #1F1717;
+  border-radius: 10px;
+}
+
+.feedback-form fieldset {
+  margin-bottom: 20px;
+  border: none;
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.feedback-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.feedback-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.feedback-form button:hover {
+  background-color: #45a049;
+}
+
+
