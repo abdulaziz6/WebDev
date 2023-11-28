@@ -295,3 +295,53 @@ p {
 .print-container {
   margin-bottom: 500px;
 }
+/* Styles specific to the gallery class */
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-block: 250px; 
+  max-width: 80%;
+  margin:  auto;
+  padding: 20px;
+  background-color: #fcf5ed91;
+  border-radius: 50px;
+  
+  
+}
+.gallery ul {
+  display: flex;  
+}
+.gallery li {
+  padding: 0;
+  flex-grow: calc(0.1 + (var(--active-lerp, 0) * 1));
+  transition: flex 0.4s ease;
+}
+.gallery img {
+  max-width: 100%;  /* This ensures the image is never larger than its container */
+  width: 100%;      /* This can be set to a specific value or percentage to increase size */
+  height: 100%;     /* Adjust height to maintain aspect ratio */
+  object-fit: fill; 
+  transition: all 0.7s ease;
+}
+.gallery ul:is(:hover, :focus-within) img {
+  opacity: calc(0.1 + (var(--active-lerp, 0) * 1.2));  
+}
+:root {
+  --lerp-0: 1;
+  --lerp-1: 0.5787037;
+  }
+
+/* Specific hover and focus-within styles for li elements within gallery */
+.gallery li:is(:hover, :focus-within) {
+  --active-lerp: var(--lerp-0);
+  z-index: 6;
+}
+.gallery li:has( + li:is(:hover, :focus-within)),
+.gallery li:is(:hover, :focus-within) + li {
+  --active-lerp: var(--lerp-1);
+  z-index: 6;
+}
+/* ...and so on for other li:has and li:is(:hover, :focus-within) selectors */
+
+
