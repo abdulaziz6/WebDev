@@ -1,0 +1,347 @@
+/* body - toolbar - footer*/
+/*< Name: Bandar Habib | ID: 2036359 | Section: CS1 | Date: 18/10/2023 
+<Name: Abdulaziz Alghamdi | ID: 2035244 | Section: CS1 | Date: 18/10/2023 */
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel&family=Kalam:wght@300&family=Tilt+Neon&display=swap");
+
+body {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-image: url("../image/background1.jpg");
+  color: black;
+}
+
+footer {
+  font-family: "Tilt Neon", sans-serif;
+  color: #ccc;
+  background-image: url("../image/footer-background.jpg");
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.toolbar {
+  font-family: "Tilt Neon", sans-serif;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Corrected width value */
+  color: rgb(197, 195, 193);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow with a little transparency */
+}
+
+.main-logo {
+  padding-left: 10px;
+  font-size: 25px;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.flexbox {
+  display: flexbox;
+}
+
+.toolbar-menu {
+  list-style: none;
+  display: flex;
+  padding-right: 20px;
+}
+
+li a {
+  color: #000;
+}
+
+.toolbar-menu li {
+  margin: 0 10px;
+}
+
+.toolbar-menu a {
+  text-decoration: none;
+}
+/* Landing page styling */
+
+.container-index {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-block: 60px;
+  padding-inline: 120px;
+}
+
+.content-main {
+  font-family: "Caveat", cursive, sans-serif;
+  text-align: center;
+  width: 90%;
+  height: 90%;
+}
+
+.content-main p {
+  font-size: 20px;
+}
+
+.content-main img {
+  border-radius: 20px;
+}
+
+button {
+  font-family: "Foldit", sans-serif;
+  background-color: aqua;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.idea-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.idea-box hr {
+  color: #000;
+  border-style: solid;
+  width: 30%;
+}
+/* Contact page styling*/
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: #912525;
+}
+/* Style the button with a specific background color etc */
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="reset"] {
+  background-color: #bb2f16;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* When moving the mouse over the button, change color */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+input[type="reset"]:hover {
+  background-color: #b32020;
+}
+/* Add a background color and some padding around the form */
+
+.container {
+  margin: 40px;
+}
+
+.content {
+  margin-bottom: 40px;
+  margin-left: 25px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Create Plan */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-block: 50px;
+}
+
+.card {
+  width: 250px;
+  background-image: url("../image/card-background.jpg");
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-position: center;
+  color: #ccc;
+}
+
+.card-section {
+  text-align: center;
+  margin: 10px;
+  font-family: "Tilt Neon", sans-serif;
+  font-size: 16px;
+}
+
+.card-section h2 {
+  font-family: "Caveat", cursive, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  max-height: 150px;
+  border-radius: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.info-section p {
+  font-size: 14px;
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 2px;
+  padding-inline: 6px;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-around;
+  border: 1px none #ddd;
+  padding: 5px;
+  text-align: center;
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+.trip-table {
+  background-color: #04364a;
+  color: #dafffb;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+  padding: 18px;
+  text-align: center;
+  border: 0.5px solid #176b87;
+}
+
+.trip-table th {
+  background-color: #64ccc5;
+  font-weight: bold;
+}
+
+.feedback-form {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fcf5ed;
+  color: #1f1717;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.feedback-form fieldset {
+  margin-bottom: 20px;
+  border: none;
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.feedback-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.feedback-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.feedback-form button:hover {
+  background-color: #45a049;
+}
+
+.print-container {
+  margin-bottom: 500px;
+}
+/* Styles specific to the gallery class */
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-block: 250px; 
+  max-width: 80%;
+  margin:  auto;
+  padding: 20px;
+  background-color: #fcf5ed91;
+  border-radius: 50px;
+  
+  
+}
+.gallery ul {
+  display: flex;  
+}
+.gallery li {
+  padding: 0;
+  flex-grow: calc(0.1 + (var(--active-lerp, 0) * 1));
+  transition: flex 0.4s ease;
+}
+.gallery img {
+  max-width: 100%;  /* This ensures the image is never larger than its container */
+  width: 100%;      /* This can be set to a specific value or percentage to increase size */
+  height: 100%;     /* Adjust height to maintain aspect ratio */
+  object-fit: fill; 
+  transition: all 0.7s ease;
+}
+.gallery ul:is(:hover, :focus-within) img {
+  opacity: calc(0.1 + (var(--active-lerp, 0) * 1.2));  
+}
+:root {
+  --lerp-0: 1;
+  --lerp-1: 0.5787037;
+  }
+
+/* Specific hover and focus-within styles for li elements within gallery */
+.gallery li:is(:hover, :focus-within) {
+  --active-lerp: var(--lerp-0);
+  z-index: 6;
+}
+.gallery li:has( + li:is(:hover, :focus-within)),
+.gallery li:is(:hover, :focus-within) + li {
+  --active-lerp: var(--lerp-1);
+  z-index: 6;
+}
+/* ...and so on for other li:has and li:is(:hover, :focus-within) selectors */
+
+
