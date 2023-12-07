@@ -4,7 +4,6 @@
 <html>
 <head>
   <link rel="stylesheet" href="{{ asset('css/styles.css') }}" />
-  <script src="{{ asset('js/imageSize.js') }}"></script>
   <title>Gallery</title>
 </head>
 <body>
@@ -45,4 +44,5 @@
 
   @include('layouts.footer') <!-- Include the footer -->
 </body>
+<script src="{{ asset('js/imageSize.js') }}"></script>
 </html>
