@@ -1,7 +1,6 @@
 /* body - toolbar - footer*/
 /*< Name: Bandar Habib | ID: 2036359 | Section: CS1 | Date: 18/10/2023 
 <Name: Abdulaziz Alghamdi | ID: 2035244 | Section: CS1 | Date: 18/10/2023 */
-@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel&family=Kalam:wght@300&family=Tilt+Neon&display=swap");
 
 body {
   width: 100%;
@@ -42,9 +41,6 @@ footer {
   flex: 1;
 }
 
-.flexbox {
-  display: flexbox;
-}
 
 .toolbar-menu {
   list-style: none;
@@ -309,6 +305,10 @@ p {
   
   
 }
+.enlarged {
+  width: 1000px; /* New width */
+  height: 1000px; /* New height */
+}
 .gallery ul {
   display: flex;  
 }
@@ -318,9 +318,7 @@ p {
   transition: flex 0.4s ease;
 }
 .gallery img {
-  max-width: 100%;  /* This ensures the image is never larger than its container */
-  width: 100%;      /* This can be set to a specific value or percentage to increase size */
-  height: 100%;     /* Adjust height to maintain aspect ratio */
+ 
   object-fit: fill; 
   transition: all 0.7s ease;
 }
