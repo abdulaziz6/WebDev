@@ -8,6 +8,8 @@ function toggleImageSize(event) {
 }
 
 // Add click event listener to each image
-document.querySelectorAll(".gallery-image").forEach(function (img) {
-    img.addEventListener("click", toggleImageSize);
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".gallery-image").forEach(function (img) {
+        img.addEventListener("click", toggleImageSize);
+    });
 });
