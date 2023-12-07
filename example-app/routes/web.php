@@ -39,7 +39,7 @@ Route::get('/our-project', function () {
 
 // For picture-gallery.html
 Route::get('/picture-gallery', function () {
-    return view('picture-gallery');
+    return view('picture-Gallery');
 })->name('picture-gallery');
 
 // For resume.html
