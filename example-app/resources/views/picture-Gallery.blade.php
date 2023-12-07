@@ -41,7 +41,7 @@
       </li>
     </ul>
   </div>
-  <script src="{{ asset('js\imageSize.js') }}"></script>
+  <script src="{{ asset('js/imageSize.js') }}"></script>
 
   @include('layouts.footer') <!-- Include the footer -->
 </body>
