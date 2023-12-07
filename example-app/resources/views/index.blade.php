@@ -21,7 +21,7 @@
         </p>
       </section>
       <section class="content-main">
-        <a href="create-plan.html">
+        <a href="{{ url('create-plan') }}">
           <button>Try Now</button>
         </a>
       </section>
