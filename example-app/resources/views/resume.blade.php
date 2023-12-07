@@ -11,7 +11,7 @@
 
   <!-- Main Content -->
   <div class="card-container">
-    <object data="{{ asset('Resume/Bandar_Habib_2023_V1.pdf') }}" type="application/pdf" width="816px" height="1180px"></object>
+    <object data="{{ asset('Resume/resumeBandar.pdf') }}" type="application/pdf" width="816px" height="1180px"></object>
   </div>
 
   <div class="card-container">
